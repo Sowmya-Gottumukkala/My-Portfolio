@@ -630,3 +630,97 @@ footer a {
     color: #fff;
 }
 
+
+/* Your existing CSS remains the same */
+
+/* Styles for Projects Section */
+.projects {
+    background: var(--bg-color);
+    color: var(--text-color);
+    padding: 10rem 9% 2rem;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.project {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.project h3 {
+    font-size: 3rem;
+}
+
+.project p {
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+
+.project strong {
+    font-weight: bold;
+}
+
+.project .button {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    margin-top: 2rem;
+    background: var(--mian-color);
+    border-radius: 4rem;
+    color: var(--second-bg-color);
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.project .button:hover {
+    box-shadow: none;
+}
+
+/* Media query for all screen sizes */
+@media only screen {
+    .home-content,
+    .about-content,
+    .services,
+    .portfolio,
+    .contact,
+    .projects {
+        padding: 10rem 9% 2rem;
+    }
+
+    .home-img img,
+    .portfolio-box img {
+        width: 100%;
+        height: auto;
+    }
+
+    .header {
+        padding: 2rem 9%;
+    }
+
+    .navbar {
+        padding: 2rem 9%;
+    }
+
+    .navbar a {
+        font-size: 1.7rem;
+        margin-left: 4rem;
+    }
+
+    .about-img img {
+        width: 35vw;
+        border-radius: 50%;
+    }
+
+    /* Add any additional styles you want to be consistent across all screen sizes */
+}
+
+
