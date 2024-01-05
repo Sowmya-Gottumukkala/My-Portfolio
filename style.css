@@ -713,6 +713,12 @@ footer a {
 
 
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     background-color: #333;
     color: #fff;
@@ -737,5 +743,10 @@ footer a {
 @media only screen and (max-width: 600px) {
     .container {
         width: 100%;
+    }
+
+    .main-content {
+        box-sizing: border-box;
+        padding: 10px;
     }
 }
