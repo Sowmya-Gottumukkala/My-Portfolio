@@ -629,3 +629,25 @@ footer {
 footer a {
     color: #fff;
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+    /* Adjust styles for tablets here */
+  }
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+    /* Adjust styles for mobile devices here */
+  }
+
+  /* Hide menu icon on mobile (optional) */
+  #menu-icon {
+    display: none;
+  }
+
+  /* Adjust other styles for mobile devices here */
+}
