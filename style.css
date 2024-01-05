@@ -302,29 +302,27 @@ span {
 .contact h2{
 margin-bottom: 3rem;
 }
-
-
-/* Your existing CSS remains the same */
-
-/* Media query for mobile and desktop */
-@media only screen {
-    html {
+@media (max-width:1200px){
+    html{
         font-size: 55%;
     }
+}
 
-    .header {
+@media (max-width:991px){
+    .header{
         padding: 2rem 3%;
     }
 
-    section {
+    section{
         padding: 10rem 3% 2rem;
     }
+}
 
-    #menu-icon {
+@media (max-width:768px){
+    #menu-icon{
         display: block;
     }
-
-    .navbar {
+    .navbar{
         position: absolute;
         top: 100%;
         left: 0;
@@ -334,41 +332,18 @@ margin-bottom: 3rem;
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1;
     }
-
-    .navbar.active {
+    .navbar.active{
         display: block;
     }
 
-    .navbar a {
+    .navbar a{
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
     }
-
-    /* Additional styles for mobile and desktop can be added here */
 }
 
-/* Media query for larger screens (optional) */
-@media only screen and (min-width: 1200px) {
-    html {
-        font-size: 62.5%;
-        /* Adjust styles for larger screens if needed */
-    }
 
-    .header {
-        padding: 2rem 9%;
-    }
-
-    section {
-        padding: 10rem 9% 2rem;
-    }
-
-    .navbar {
-        /* Adjust styles for larger screens if needed */
-    }
-
-    /* Add any other styles for larger screens */
-}
 
 
 
