@@ -630,10 +630,23 @@ footer a {
     color: #fff;
 }
 
+/* Default styles for larger screens (desktop) */
+body {
+  font-size: 16px;
+  /* Add other desktop styles here */
+}
+
+/* Media query for tablets */
 @media only screen and (max-width: 768px) {
   body {
     font-size: 14px;
     /* Adjust styles for tablets here */
+  }
+
+  /* Adjust image size for tablets */
+  .home-img img {
+    width: 100%; /* Make the image fill the container width */
+    height: auto; /* Maintain aspect ratio */
   }
 }
 
@@ -649,5 +662,12 @@ footer a {
     display: none;
   }
 
+  /* Adjust image size for mobile devices */
+  .home-img img {
+    width: 100%; /* Make the image fill the container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
   /* Adjust other styles for mobile devices here */
 }
+
