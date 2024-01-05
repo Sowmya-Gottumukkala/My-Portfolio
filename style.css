@@ -711,42 +711,31 @@ footer a {
     box-shadow: none;
 }
 
-/* Media query for all screen sizes */
-@media only screen {
-    .home-content,
-    .about-content,
-    .services,
-    .portfolio,
-    .contact,
-    .projects {
-        padding: 10rem 9% 2rem;
-    }
 
-    .home-img img,
-    .portfolio-box img {
-        width: 100%;
-        height: auto;
-    }
 
-    .header {
-        padding: 2rem 9%;
-    }
-
-    .navbar {
-        padding: 2rem 9%;
-    }
-
-    .navbar a {
-        font-size: 1.7rem;
-        margin-left: 4rem;
-    }
-
-    .about-img img {
-        width: 35vw;
-        border-radius: 50%;
-    }
-
-    /* Add any additional styles you want to be consistent across all screen sizes */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
 
+.main-content {
+    padding: 20px;
+}
+
+.main-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
