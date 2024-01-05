@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -349,7 +348,7 @@ margin-bottom: 3rem;
 
 
 
-/* Your existing CSS remains the same */
+
 
 /* Styles for Projects Section */
 .projects {
@@ -630,3 +629,60 @@ footer {
 footer a {
     color: #fff;
 }
+
+
+/* Your existing CSS remains the same */
+
+/* Styles for Projects Section */
+.projects {
+    background: var(--bg-color);
+    color: var(--text-color);
+    padding: 10rem 9% 2rem;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.project {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.project h3 {
+    font-size: 3rem;
+}
+
+.project p {
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+
+.project strong {
+    font-weight: bold;
+}
+
+.project .button {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    margin-top: 2rem;
+    background: var(--mian-color);
+    border-radius: 4rem;
+    color: var(--second-bg-color);
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.project .button:hover {
+    box-shadow: none;
+}
+
+
