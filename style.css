@@ -143,6 +143,45 @@ span {
 .btn:hover {
     box-shadow: none;
 }
+
+ .home-content {
+        text-align: center;
+    }
+
+    /* Add this style to center the entire section on the page */
+    #home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Adjust the height as needed */
+    }
+	
+	
+
+
+    /* Add media queries for responsive design */
+    @media only screen and (max-width: 768px) {
+        #home {
+            flex-direction: column; /* Stack items vertically on smaller screens */
+        }
+    }
+	
+	
+    .home-img {
+        margin-left: 20px; /* Adjust the margin as needed */
+        margin-right: 20px; /* Adjust the margin as needed */
+    }
+
+    
+        .home-img {
+            margin: 0;
+        }
+    }
+
+
+
+
+
 .about{
     display: flex;
     justify-content: center;
