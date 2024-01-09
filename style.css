@@ -143,35 +143,6 @@ span {
 .btn:hover {
     box-shadow: none;
 }
-
-
-
-
-
-@media only screen and (max-width: 768px) {
-    .home {
-        flex-direction: column;
-    }
-
-    .home-img img {
-        width: 100%; /* Make the image fill the container */
-        height: auto; /* Maintain aspect ratio */
-        margin-bottom: 1rem; /* Add some spacing between image and text */
-    }
-
-    .home-content h1,
-    .home-content h3,
-    .home-content p {
-        text-align: center; /* Center text on smaller screens */
-    }
-
-    
-
-
-
-
-
-
 .about{
     display: flex;
     justify-content: center;
