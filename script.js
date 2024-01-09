@@ -30,3 +30,10 @@ window.onscroll = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
+
+
+function toggleMenu() {
+    var navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('active');
+}
+
