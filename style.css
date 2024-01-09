@@ -165,19 +165,7 @@ span {
         text-align: center; /* Center text on smaller screens */
     }
 
-    .social-media,
-    .btn {
-        margin: 1.5rem 0; /* Add spacing for better visibility */
-    }
-
-    .social-media a,
-    .btn {
-        width: 100%; /* Make buttons and social media icons full width */
-        margin: 1rem 0; /* Add spacing between buttons and icons */
-    }
-}
-
-
+    
 
 
 
