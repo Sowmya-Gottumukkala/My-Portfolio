@@ -686,3 +686,33 @@ footer a {
 }
 
 
+
+
+
+/* Add this CSS for responsiveness */
+
+/* Mobile view */
+@media screen and (max-width: 768px) {
+  .home-content {
+    text-align: center; /* Center-align text on smaller screens */
+  }
+
+  .home-img {
+    text-align: center; /* Center-align image on smaller screens */
+    margin-top: 20px; /* Add some space between image and text */
+  }
+
+  /* Adjust font size for headings and paragraph */
+  h1 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
