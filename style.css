@@ -359,30 +359,6 @@ margin-bottom: 3rem;
     }
 }
 
-@media (max-width:768px){
-    #menu-icon{
-        display: block;
-    }
-    .navbar{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 1rem 3%;
-        background: var(--bg-color);
-        border-top: .1rem solid rgba(0, 0, 0, .2);
-        box-shadow: 0 .5rem 1;
-    }
-    .navbar.active{
-        display: block;
-    }
-
-    .navbar a{
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-    }
-}
 
 
 
@@ -727,31 +703,39 @@ footer a {
 
 
 
+@media only screen and (max-width: 600px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #333; /* Change the background color as needed */
+        display: none;
+    }
 
-/* Add this CSS for responsiveness */
+    .navbar a {
+        padding: 15px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
 
-/* Mobile view */
-@media screen and (max-width: 768px) {
-  .home-content {
-    text-align: center; /* Center-align text on smaller screens */
-  }
+    .navbar a:hover {
+        background-color: #ddd; /* Change the background color as needed */
+        color: black;
+    }
 
-  .home-img {
-    text-align: center; /* Center-align image on smaller screens */
-    margin-top: 20px; /* Add some space between image and text */
-  }
-
-  /* Adjust font size for headings and paragraph */
-  h1 {
-    font-size: 24px;
-  }
-
-  h3 {
-    font-size: 18px;
-  }
-
-  p {
-    font-size: 14px;
-  }
+    .navbar.active {
+        display: block;
+    }
+}
+body {
+    font-size: 16px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
