@@ -714,11 +714,7 @@ footer a {
         margin: 3rem 0;
     }
 
-    /* Additional adjustments for smaller screens */
-    .home-content h1 {
-        font-size: 4rem;
-    }
-
+   
     .social-media a {
         width: 3rem;
         height: 3rem;
@@ -753,18 +749,29 @@ footer a {
     }
 }
 
-/* Your existing CSS remains the same */
+@media only screen and (max-width: 768px) {
+    /* ... existing styles ... */
 
-/* Styles for Projects Section */
-/* ... */
+    .home-img img {
+        width: 100%; /* Make sure the profile photo takes the full width */
+        height: auto; /* Maintain aspect ratio */
+        max-width: 250px; /* Limit the maximum width to avoid distortion */
+    }
 
-/* Styles for Skills Section */
-/* ... */
+    .home-content {
+        text-align: center; /* Center the text on smaller screens */
+    }
 
-/* Styles for Contact Section */
-/* ... */
+    .home-content h1 {
+        font-size: 3.6rem; /* Adjust the font size for better visibility */
+    }
 
-/* Styles for Footer */
-/* ... */
+    .home-content p {
+        font-size: 1.4rem; /* Adjust the font size for better readability */
+    }
+    
+    /* Add more adjustments as needed */
+}
+
 
 
