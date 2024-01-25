@@ -750,17 +750,19 @@ footer a {
 }
 
 @media only screen and (max-width: 768px) {
+    /* ... existing styles ... */
+
     .home-img img {
-        width: 100%; /* Take up the full width of the container */
-        max-width: 250px; /* Limit the maximum width */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%;
+        max-width: 250px;
+        height: auto;
         display: block;
-        margin: 0 auto; /* Center the image */
+        margin: 0 auto;
     }
 
     .home-content {
         text-align: center;
-        padding: 2rem; /* Add padding for better spacing */
+        padding: 2rem;
     }
 
     .home-content h3 {
@@ -779,14 +781,13 @@ footer a {
         margin-bottom: 2rem;
     }
 
-    /* Adjust anchor header tags for mobile view */
+    /* Remove anchor tags for mobile view */
     .home-content h3 span,
     .home-content h1 span {
-        display: block;
-        font-size: 1.8rem;
-        margin-top: 1rem;
+        display: initial; /* Restore the default display property */
     }
 }
+
 
 
 
