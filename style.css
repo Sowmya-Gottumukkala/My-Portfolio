@@ -751,26 +751,27 @@ footer a {
 
 @media only screen and (max-width: 768px) {
     .home-img img {
-        width: 80%; /* Adjust the width as per your preference */
-        max-width: 250px;
+        width: 100%; /* Take up the full width of the container */
+        max-width: 250px; /* Limit the maximum width */
+        height: auto; /* Maintain aspect ratio */
+        display: block;
         margin: 0 auto; /* Center the image */
-        display: block; /* Remove any residual inline spacing */
     }
 
     .home-content {
         text-align: center;
-        padding: 2rem 0; /* Add some padding for better spacing */
+        padding: 2rem; /* Add padding for better spacing */
     }
 
     .home-content h3 {
-        font-size: 1.8rem; /* Adjust the font size for better readability */
+        font-size: 1.8rem;
         margin-bottom: 1rem;
     }
 
     .home-content h1 {
-        font-size: 2.8rem; /* Adjust the font size for better readability */
+        font-size: 2.8rem;
         margin-bottom: 1rem;
-        line-height: 1.2; /* Adjust line-height for better spacing */
+        line-height: 1.2;
     }
 
     .home-content p {
@@ -781,11 +782,12 @@ footer a {
     /* Adjust anchor header tags for mobile view */
     .home-content h3 span,
     .home-content h1 span {
-        display: block; /* Ensure each span is on a new line */
-        font-size: 1.8rem; /* Adjust the font size for better readability */
-        margin-top: 1rem; /* Add spacing between spans */
+        display: block;
+        font-size: 1.8rem;
+        margin-top: 1rem;
     }
 }
+
 
 
 
