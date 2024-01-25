@@ -625,3 +625,146 @@ footer {
 footer a {
     color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Your existing CSS code */
+
+/* Mobile styles (up to 767px) */
+@media only screen and (max-width: 767px) {
+  /* Adjust styles for mobile devices here */
+  body {
+    font-size: 16px; /* Example: Increase font size for better readability on small screens */
+  }
+
+  /* Add any other mobile-specific styles */
+}
+
+/* Tablet and desktop styles (768px and above) */
+@media only screen and (min-width: 768px) {
+  /* Adjust styles for tablets and desktops here */
+  body {
+    font-size: 18px; /* Example: Larger font size for desktop view */
+  }
+
+  /* Add any other tablet/desktop-specific styles */
+}
+
+
+
+
+/* Add these media queries for responsive design */
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem 50px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1;
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    /* Additional adjustments for smaller screens */
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .social-media a {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        margin: 2rem 1rem 2rem 0;
+    }
+
+    .btn {
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+    }
+
+    .about-img img {
+        width: 70%;
+    }
+
+    .portfolio-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .portfolio-box img {
+        transition: none;
+    }
+}
+
+/* Additional responsive adjustments */
+@media only screen and (max-width: 650px) {
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem 50px;
+    }
+}
+
+/* Your existing CSS remains the same */
+
+/* Styles for Projects Section */
+/* ... */
+
+/* Styles for Skills Section */
+/* ... */
+
+/* Styles for Contact Section */
+/* ... */
+
+/* Styles for Footer */
+/* ... */
+
+
