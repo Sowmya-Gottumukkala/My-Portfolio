@@ -32,7 +32,7 @@
 
 ## Demo:
 
-   For a live demonstration, visit https://sowmya-gottumukkala.github.io/My-Portfolio/.
+   For a live demonstration, visit https://sowmya-gottumukkala.github.io/website/
 
 
 ## Contribution:
