@@ -3,18 +3,20 @@
 
 Welcome to my personal portfolio repository! This repository serves as a showcase of my skills, experiences, and projects. Designed and developed with a combination of HTML, CSS, and potentially JavaScript, this portfolio aims to provide visitors with a comprehensive overview of my professional journey.
 
-## Technologies Used
+  ![portfolio](https://github.com/Sowmya-Gottumukkala/website/assets/127223176/fa27650b-781d-4bb3-8006-8af6f3e0ae38)
+
+## Technologies Used:
 
 - ### HTML:
    Structure of the portfolio.
-  
+
 - ### CSS:
    Styling to enhance the visual appeal.
   
 - ### JavaScript:
    Used for interactive features and dynamic content.
 
-## Features
+## Features:
 
 - ### About Me:
    Learn about my background, skills, and interests.
@@ -28,16 +30,16 @@ Welcome to my personal portfolio repository! This repository serves as a showcas
 - ### Contact:
    Reach out to me easily through the provided contact information.
 
-## Demo
+## Demo:
 
    For a live demonstration, visit https://sowmya-gottumukkala.github.io/My-Portfolio/.
 
 
-## Contribution
+## Contribution:
 
    Contributions and suggestions are always appreciated. If you have ideas for improvements or new features, feel free to fork the repository and submit a pull request.
 
-## Issues
+## Issues:
 
    If you encounter any issues or have suggestions for improvement, please open an issue in the repository.
 
