@@ -1,7 +1,7 @@
-# My-Portfolio
+# Website
 
 
-Welcome to my personal portfolio repository! This repository serves as a showcase of my skills, experiences, and projects. Designed and developed with a combination of HTML, CSS, and potentially JavaScript, this portfolio aims to provide visitors with a comprehensive overview of my professional journey.
+ This repository serves as a showcase of my skills, experiences, and projects. Designed and developed with a combination of HTML, CSS, and potentially JavaScript, this portfolio aims to provide visitors with a comprehensive overview of my professional journey.
 
   ![portfolio](https://github.com/Sowmya-Gottumukkala/website/assets/127223176/fa27650b-781d-4bb3-8006-8af6f3e0ae38)
 
